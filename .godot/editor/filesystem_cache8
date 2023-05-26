@@ -1,0 +1,31 @@
+2a60927148abd1d33b818b535e306557
+::res://::1685096420
+export_presets.cfg::TextFile::-1::1685083069::0::1::::<><>::
+icon.svg::CompressedTexture2D::6193933049566541860::1683644875::1683644886::1::::<><>::
+knight.png::CompressedTexture2D::2584275314134292784::1684840872::1684840878::1::::<><>::
+TimeFormat.gd::GDScript::-1::1684840283::0::1::::TimeFormatter<>RefCounted<>::
+::res://Arcade/::1685096715
+Arcade Demo.tscn::PackedScene::7434191581739363571::1685096715::0::1::::<><>::res://Arcade/Init.gd<>uid://bc23vwhagr0bc<>res://Arcade/WinBox.gd<>uid://dvgn70fdskqq3<>uid://bdmxkgmnpk8n1<>uid://d0dpx0r6g8exf<>res://Gameplay/DisplayMoves.gd
+Init.gd::GDScript::-1::1685096477::0::1::::<>Node2D<>::
+ScoreThing.tscn::PackedScene::8646461821281810700::1684853473::0::1::::<><>::uid://bdmxkgmnpk8n1<>uid://d0dpx0r6g8exf
+UI.tres::Theme::2623174430717484216::1685084842::0::1::::<><>::uid://dv11hdaura3cd
+WinBox.gd::GDScript::-1::1685096315::0::1::::<>Panel<>::
+::res://Arcade/Levels/::1685096617
+Level1.tscn::PackedScene::3404438222261077076::1685096617::0::1::::<><>::res://Gameplay/TileMap.gd<>uid://xyicntpdtx7o<>uid://be5phqaq76qvg<>uid://dubs8v7515s82
+Level2.tscn::PackedScene::7106507582507148827::1685096617::0::1::::<><>::res://Gameplay/TileMap.gd<>uid://xyicntpdtx7o<>uid://be5phqaq76qvg<>uid://dubs8v7515s82
+::res://export/::1683647225
+ChessGrid.apple-touch-icon.png::CompressedTexture2D::1790861827624461773::1683647225::1683647225::1::::<><>::
+ChessGrid.icon.png::CompressedTexture2D::3345373074435474557::1683647225::1683647225::1::::<><>::
+ChessGrid.png::CompressedTexture2D::8998829550644820533::1683647225::1683647225::1::::<><>::
+::res://Fonts/::1684842031
+Atkinson-Hyperlegible-Regular-102.otf::FontFile::8688492889954308807::1588279194::1684842031::1::::<><>::
+JetBrains Mono ExtraBold Nerd Font Complete.ttf::FontFile::8921129444206848939::1662555452::1684842031::1::::<><>::
+::res://Gameplay/::1685096593
+DisplayMoves.gd::GDScript::-1::1685096593::0::1::::<>TileMap<>::
+TileMap.gd::GDScript::-1::1685096574::0::1::::<>Node2D<>::
+::res://Tiles/::1685096936
+Possible moves.png::CompressedTexture2D::1103691002617174124::1685096936::1685096938::1::::<><>::
+Tile2.tscn::PackedScene::8566256292485771413::1684829079::0::1::::<><>::res://Tiles/Tile.gd
+Tile.gd::GDScript::-1::1684851188::0::1::::<>Node2D<>::
+Tile.tscn::PackedScene::2730031487460424584::1684829079::0::1::::<><>::res://Tiles/Tile.gd
+white_check_mark.png::CompressedTexture2D::1664378490143271570::1684820899::1684822953::1::::<><>::

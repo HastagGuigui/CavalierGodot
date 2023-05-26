@@ -1,0 +1,8 @@
+res://Arcade/Arcade Demo.tscn
+res://Arcade/UI.tres
+res://Arcade/Levels/Level2.tscn
+res://Arcade/Levels/Level1.tscn
+res://Arcade/WinBox.gd
+res://Arcade/Init.gd
+res://Gameplay/TileMap.gd
+res://Gameplay/DisplayMoves.gd

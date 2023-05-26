@@ -1,0 +1,25 @@
+[gd_scene load_steps=7 format=3 uid="uid://boreun0l73x1e"]
+
+[ext_resource type="Script" path="res://Gameplay/TileMap.gd" id="1_re1jn"]
+[ext_resource type="Texture2D" uid="uid://xyicntpdtx7o" path="res://Tiles/white_check_mark.png" id="2_qnp72"]
+[ext_resource type="PackedScene" uid="uid://be5phqaq76qvg" path="res://Tiles/Tile.tscn" id="3_2xf2k"]
+[ext_resource type="PackedScene" uid="uid://dubs8v7515s82" path="res://Tiles/Tile2.tscn" id="4_843an"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_2mbsy"]
+scenes/1/scene = ExtResource("3_2xf2k")
+scenes/2/scene = ExtResource("4_843an")
+
+[sub_resource type="TileSet" id="TileSet_25dtd"]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetScenesCollectionSource_2mbsy")
+
+[node name="Level1" type="Node2D" groups=["level"]]
+script = ExtResource("1_re1jn")
+checkedTex = ExtResource("2_qnp72")
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_25dtd")
+format = 2
+layer_0/tile_data = PackedInt32Array(-262153, 0, 131072, -131081, 0, 131072, -524296, 0, 65536, -458760, 0, 131072, -393224, 0, 65536, -196616, 0, 131072, -131080, 0, 65536, -65544, 0, 131072, -524295, 0, 131072, -458759, 0, 65536, -393223, 0, 131072, -327687, 0, 65536, -196615, 0, 65536, -131079, 0, 131072, -65543, 0, 65536, -458758, 0, 131072, -393222, 0, 65536, -327686, 0, 131072, -262150, 0, 65536, -196614, 0, 131072, -131078, 0, 65536, -393221, 0, 131072, -327685, 0, 65536, -262149, 0, 131072, -196613, 0, 65536, -458756, 0, 131072, -393220, 0, 65536, -327684, 0, 131072, -262148, 0, 65536, -196612, 0, 131072, -131076, 0, 65536, -458755, 0, 65536, -393219, 0, 131072, -327683, 0, 65536, -262147, 0, 131072, -131075, 0, 131072, -65539, 0, 65536, -458754, 0, 131072, -393218, 0, 65536, -327682, 0, 131072, -262146, 0, 65536, -131074, 0, 65536, -65538, 0, 131072)
+
+[connection signal="tile_clicked" from="." to="." method="on_tile_clicked"]

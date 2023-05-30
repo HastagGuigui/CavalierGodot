@@ -92,7 +92,7 @@ func reload_score_display():
 		if i < len(specialColors):
 			scobj.get_child(0).set("theme_override_styles/panel", specialColors[i])
 		container.add_child(scobj)
-		var croppedText = score["name"].left(20)
+		var croppedText = score["name"].left(60)
 		if croppedText != score["name"]:
 			croppedText += "..."
 		if i < 20:
